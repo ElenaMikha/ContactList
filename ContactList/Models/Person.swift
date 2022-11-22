@@ -17,6 +17,25 @@ struct PersonData {
     let emails = DataStore.shared.emails
     let phones = DataStore.shared.phones
     
+    var fullname: String {
+        "\(names) \(surnames)"
+    }
     
+}
+
+extension PersonData {
+    static func getPersonData() -> [PersonData] {
+        var personDatas: [PersonData] = []
+        for _ in 1...5 {
+            let personData = PersonData (
+           names: DataStore.shared.names.randomElement() ?? "",
+           
+                
+                
+            )
+            
+            personDatas.append(personData)
+        }
+    }
     
 }
