@@ -17,7 +17,7 @@ struct PersonData {
     let emails = DataStore.shared.emails
     let phones = DataStore.shared.phones
     
-    var fullname: String {
+    var fullName: String {
         "\(names) \(surnames)"
     }
     
