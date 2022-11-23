@@ -5,10 +5,7 @@
 //  Created by Elena Mikhailova on 22.11.2022.
 //
 
-//let name = DataStore.shared.name
-//let surname = DataStore.shared.surname
-//let email = DataStore.shared.email
-//let phone = DataStore.shared.phone
+
 
 struct PersonData {
     
@@ -26,16 +23,14 @@ struct PersonData {
 extension PersonData {
     static func getPersonData() -> [PersonData] {
         var personDatas: [PersonData] = []
-        for _ in 1...5 {
-            let personData = PersonData (
-           names: DataStore.shared.names.randomElement() ?? "",
-           
+        for _ in 1...10 {
+            let personData = PersonData(
                 
-                
-            )
             
-            personDatas.append(personData)
+            )
+           personDatas.append(personData)
         }
+        return personDatas
     }
     
 }
