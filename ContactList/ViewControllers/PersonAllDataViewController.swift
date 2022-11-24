@@ -24,12 +24,21 @@ class PersonAllDataViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        personAllData.count
+        2
 }
 
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "\(section)"
+}
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "phone", for: indexPath)
+        let data = personAllData[indexPath.section]
+        var contant = cell.defaultContentConfiguration()
+        contant.text = data.phone
+        sectionIndexTitles(for: )
+        
+        cell.contentConfiguration = contant
 
         
 

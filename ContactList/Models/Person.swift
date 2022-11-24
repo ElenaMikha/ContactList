@@ -28,9 +28,9 @@ extension PersonData {
             let person = PersonData(
                 name: DataStore.shared.names.randomElement() ?? "",
                 surname: DataStore.shared.surnames.randomElement() ?? "",
-                email: DataStore.shared.emails.randomElement() ?? "",
+                email: DataStore.shared.emails.randomElement() ?? "" ,
                 phone: DataStore.shared.phones.randomElement() ?? ""
-                )
+            )
             personData.append(person)
         }
         return personData
