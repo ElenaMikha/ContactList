@@ -23,17 +23,17 @@ struct PersonData {
 
 extension PersonData {
     static func getPersonData() -> [PersonData] {
-        var personDatas: [PersonData] = []
+        var personData: [PersonData] = []
         for _ in 1...10 {
-            let personData = PersonData(
+            let person = PersonData(
                 name: DataStore.shared.names.randomElement() ?? "",
                 surname: DataStore.shared.surnames.randomElement() ?? "",
                 email: DataStore.shared.emails.randomElement() ?? "",
                 phone: DataStore.shared.phones.randomElement() ?? ""
                 )
-           personDatas.append(personData)
+           personData.append(person)
         }
-        return personDatas
+        return personData
         
     }
 }
