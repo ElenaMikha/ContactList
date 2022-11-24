@@ -31,7 +31,7 @@ extension PersonData {
                 email: DataStore.shared.emails.randomElement() ?? "",
                 phone: DataStore.shared.phones.randomElement() ?? ""
                 )
-           personData.append(person)
+            personData.append(person)
         }
         return personData
         
