@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262298CF29314A9400B1E1BB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262298CE29314A9400B1E1BB /* TabBarViewController.swift */; };
 		2640364A292F47F8000D8312 /* PersonalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26403649292F47F8000D8312 /* PersonalListViewController.swift */; };
 		26D5C095292F571A00100590 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5C094292F571A00100590 /* PersonDetailsViewController.swift */; };
 		26D5C097292F7ABC00100590 /* PersonAllDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5C096292F7ABC00100590 /* PersonAllDataViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262298CE29314A9400B1E1BB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		26403649292F47F8000D8312 /* PersonalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalListViewController.swift; sourceTree = "<group>"; };
 		26D5C094292F571A00100590 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		26D5C096292F7ABC00100590 /* PersonAllDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAllDataViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				26403649292F47F8000D8312 /* PersonalListViewController.swift */,
 				26D5C094292F571A00100590 /* PersonDetailsViewController.swift */,
 				26D5C096292F7ABC00100590 /* PersonAllDataViewController.swift */,
+				262298CE29314A9400B1E1BB /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262298CF29314A9400B1E1BB /* TabBarViewController.swift in Sources */,
 				26DBB5DA292D56CE002DF054 /* AppDelegate.swift in Sources */,
 				26DBB5F2292D582F002DF054 /* Person.swift in Sources */,
 				26D5C095292F571A00100590 /* PersonDetailsViewController.swift in Sources */,
